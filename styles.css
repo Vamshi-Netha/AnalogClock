@@ -6,9 +6,10 @@ body{
     background: linear-gradient(to right, rgb(17, 0, 255), rgb(0, 224, 0));
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: flex-end;
+    min-height: 85vh;
     overflow: hidden;
+    /*border: red solid 10px;*/
 }
 
 .clock{
@@ -72,3 +73,21 @@ body{
     height: 40%;}
 .clock .hour{width: 7px;background-color: black;
     height: 35%;} 
+.date{
+    position: absolute;
+    min-height: 70vh;
+    font-size: 1.5rem;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.date1{padding: 5px;}
+.month{padding: 5px;}
+.year{padding:5px}
+.day{
+    position: absolute;
+    min-height: 65vh;
+    font-size: 1.5rem;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
